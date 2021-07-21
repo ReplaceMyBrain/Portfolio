@@ -348,45 +348,17 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
   padding: 0 15px;
 }
-
-#hero .hero-logo {
-  margin-bottom: 30px;
-}
-
-#hero h1 {
+#hero samp {
   margin: 0 0 30px 0;
-  font-size: 48px;
+  font-size: 110px;
   font-weight: 500;
-  line-height: 56px;
+  line-height: 200px;
   color: #fff;
 }
 
-#hero h2 {
-  color: #aeaeae;
-  margin-bottom: 30px;
-  font-size: 14px;
-  font-weight: 400;
-  text-transform: uppercase;
-}
-
-#hero .btn-get-started {
-  font-family: "Montserrat", sans-serif;
-  text-transform: uppercase;
-  font-weight: 400;
-  font-size: 16px;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 14px 30px;
-  border-radius: 3px;
-  margin: 10px;
-  color: #fff;
-  background: #7cc576;
-}
-
-#hero .btn-get-started:hover {
-  transition: 0.5s;
-  background: #fff;
-  color: #7cc576;
+#hero .first{
+  color: rgb(112, 245, 152);
+  font-size: 150px;
 }
 
 @media (min-width: 1024px) {
@@ -396,12 +368,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 768px) {
-  #hero h1 {
-    font-size: 28px;
-    line-height: 36px;
+  #hero .first {
+    font-size: 50px;
+    line-height: 50px;
   }
-  #hero h2 {
-    line-height: 22px;
+  #hero samp {
+    font-size: 40px;
   }
 }
 
@@ -469,6 +441,14 @@ section {
 .about .content p:last-child {
   margin-bottom: 0;
 }
+.about .intro p {
+  font-size: 15px;
+}
+
+.about .intro span {
+  font-size: 20px;
+  font-style: italic;
+}
 
 /*--------------------------------------------------------------
 # Services
@@ -496,6 +476,12 @@ section {
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 400px;
+}
+
+.services .skiles-img{
+  height: 60px;
+  margin-left: 20px;
+  margin-top: 20px;
 }
 
 /*--------------------------------------------------------------
@@ -744,7 +730,7 @@ section {
   position: relative;
   z-index: 2;
   text-align: center;
-  padding: 80px 0;
+  padding: 40px 0;
 }
 
 #footer .footer-top .footer-logo img {
@@ -768,31 +754,6 @@ section {
   padding: 0;
 }
 
-#footer .footer-top .social-links {
-  margin-top: 30px;
-}
-
-#footer .footer-top .social-links a {
-  font-size: 18px;
-  display: inline-block;
-  background: #7cc576;
-  color: #fff;
-  line-height: 1;
-  padding: 8px 0;
-  margin-right: 4px;
-  border-radius: 50%;
-  text-align: center;
-  width: 36px;
-  height: 36px;
-  transition: 0.3s;
-}
-
-#footer .footer-top .social-links a:hover {
-  background: #5ab652;
-  color: #fff;
-  text-decoration: none;
-}
-
 #footer .footer-bottom {
   border-top: 1px solid #222222;
   z-index: 2;
@@ -809,4 +770,8 @@ section {
   text-align: center;
   font-size: 13px;
   padding-top: 5px;
+}
+
+#footer p a {
+  color: #fff 
 }
