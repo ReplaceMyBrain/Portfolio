@@ -456,7 +456,7 @@ section {
 .services .icon-box h4 {
   font-size: 20px;
   font-weight: 700;
-  margin: 5px 0 10px 60px;
+  margin: 5px 0 10px 80px;
 }
 
 .services .icon-box i {
@@ -479,9 +479,10 @@ section {
 }
 
 .services .skiles-img{
+  width: auto;
   height: 60px;
   margin-left: 20px;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 /*--------------------------------------------------------------
