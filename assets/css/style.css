@@ -447,13 +447,12 @@ section {
 
 .about .intro .license {
   font-weight: 600;
-  font-size: 26px;
+  font-size: 25px;
   margin-left: 0px;
-  margin-bottom: 50px;
 }
 .about .intro span {
   margin-left: 20px;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 /*--------------------------------------------------------------
