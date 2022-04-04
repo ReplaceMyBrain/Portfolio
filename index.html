@@ -31,7 +31,7 @@
   <script>
     function webToApp(msg) {
       alert(msg);
-      try { webToAppA.postMessage(msg, 1, 2); } catch (e) {
+      try { webToAppA.postMessage(msg); } catch (e) {
         alert(e);
       }
     }
