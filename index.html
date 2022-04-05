@@ -28,12 +28,16 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+
   <script>
     function webToApp(msg) {
       alert(msg);
       try { webToAppA.postMessage(msg); } catch (e) {
         alert(e);
       }
+    }
+    function apiTest() {
+      alert("네이티브 api 요청 테스트");
     }
   </script>
 
